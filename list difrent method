@@ -1,0 +1,5 @@
+#take a input and 
+v = [int(i) for i in input('Enter a value ').split()]
+v.sort()
+v.reverse()
+print(v)
